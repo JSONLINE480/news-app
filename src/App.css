@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+.app {
+  padding: 20px;
+  text-align: center;
+}
+
+.app-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.news-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 0 10px;
+}
+
+.news-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.news-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.news-card h2 {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+.news-card p {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.news-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+}

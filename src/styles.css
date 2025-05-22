@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.light {
+  background: #f5f5f5;
+  color: #222;
+}
+
+.dark {
+  background: #1c1c1c;
+  color: #eee;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: #007bff;
+  color: white;
+}
+
+.navbar a,
+.navbar button {
+  margin-left: 1rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  color: black;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 300px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dark .card {
+  background: #2c2c2c;
+  color: #fff;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.load-more {
+  display: block;
+  margin: 30px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.status {
+  text-align: center;
+  margin: 20px;
+}
+
+.status.error {
+  color: red;
+}
